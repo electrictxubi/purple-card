@@ -1,0 +1,41 @@
+$desktop-bp: 1440px;
+
+//main background color
+$main-blue: hsl(233, 47%, 7%);
+
+//card background
+$dark-blue: hsl(244, 38%, 16%);
+
+//accent
+$dviolet: hsl(277, 84%, 33%);
+
+$dviolet2: hsla(277, 73%, 64%, 0.849);
+
+//main heading stats
+$white: hsl(0, 0%, 100%);
+
+//main p
+$whiteP: hsla(0, 0%, 100%, 0.75);
+
+//stat headings
+$whitesh: hsla(0, 0%, 100%, 0.6);
+
+//fonts
+$not-headings: 'Inter', sans-serif;
+$headings: 'Lexend Deca', sans-serif;
+
+
+@mixin reset{
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        font-size: 15px;
+    }
+}
