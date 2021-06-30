@@ -13,7 +13,7 @@ body {
           flex-direction: column;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   font-size: 15px;
 }
 
@@ -32,8 +32,10 @@ footer {
   font-size: 11px;
   text-align: center;
   background: #1b1938;
-  margin-top: auto;
   color: rgba(255, 255, 255, 0.75);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 10px 0;
 }
 
@@ -102,7 +104,7 @@ footer a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 40vh;
+    height: 45vh;
   }
   .wrapper .bsh {
     -webkit-box-ordinal-group: 3;
@@ -124,18 +126,20 @@ footer a {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 50%;
+    height: auto;
+    display: inline-block;
     text-align: left;
   }
   .content h1 {
-    padding-top: 40px;
+    padding-top: 0.375em;
     font-size: 1.9rem;
   }
   .content .main-p {
-    padding-top: 10px;
+    padding-top: 0.666m;
   }
   .content .stats {
     width: 75%;
-    padding-top: 15px;
+    padding-top: .5em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -147,6 +151,18 @@ footer a {
   .card {
     width: 70%;
     margin: 0 auto;
+  }
+  footer {
+    margin-top: auto;
+  }
+  main {
+    height: calc(100vh - 33px);
+  }
+}
+
+@media (max-height: 685px) {
+  .wrapper {
+    height: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
