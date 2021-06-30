@@ -22,7 +22,8 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #090b1a; }
+  background-color: #090b1a;
+  min-height: calc(100vh - 33px); }
 
 footer {
   font-size: 11px;

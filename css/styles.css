@@ -25,6 +25,7 @@ main {
       -ms-flex-align: center;
           align-items: center;
   background-color: #090b1a;
+  min-height: calc(100vh - 33px);
 }
 
 footer {

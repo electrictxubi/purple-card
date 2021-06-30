@@ -6,6 +6,7 @@ main {
     display: flex;
     align-items: center;
     background-color: $main-blue;
+    min-height: calc(100vh - 33px);
 }
 
 footer {
