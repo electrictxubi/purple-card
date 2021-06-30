@@ -25,13 +25,13 @@ main {
       -ms-flex-align: center;
           align-items: center;
   background-color: #090b1a;
-  height: 100%;
 }
 
 footer {
   font-size: 11px;
   text-align: center;
   background: #1b1938;
+  margin-top: auto;
   color: rgba(255, 255, 255, 0.75);
   -webkit-box-flex: 1;
       -ms-flex: 1;

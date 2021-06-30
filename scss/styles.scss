@@ -6,14 +6,13 @@ main {
     display: flex;
     align-items: center;
     background-color: $main-blue;
-    height: 100%;
 }
 
 footer {
     font-size: 11px;
     text-align: center;
     background: $dark-blue;
-    // margin-top: auto;
+    margin-top: auto;
     color: $whiteP;
     flex: 1;
     padding: 10px 0;
